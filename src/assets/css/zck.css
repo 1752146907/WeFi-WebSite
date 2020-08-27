@@ -1,0 +1,38 @@
+.zck-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 804px;
+    background: url("../../assets/image/zck-bg.png") no-repeat;
+}
+
+
+.zck-content-left {
+    margin-right: 160px;
+    margin-bottom: 150px;
+}
+
+.zck-content-title-img {
+
+}
+
+.zck-content-title-desc {
+    width: 520px;
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.zck-code {
+    margin-top: 28px;
+}
+
+.jxt-content-right {
+
+}
+
+.jxt-right-img {
+    width: 100%;
+    height: 658px;
+}

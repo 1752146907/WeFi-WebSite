@@ -1,0 +1,16 @@
+export default {
+    // host: 'http://192.168.0.147:8088',
+    // host: 'http://192.168.0.195:8088',
+    host: 'https://api.zcaiyun.com',
+    // imagePreviewHost: 'http://192.168.0.82:8888',
+    imagePreviewHost: 'https://static.zcaiyun.com',
+    webSocketHost: 'wss://websocket.zcaiyun.com',
+    // webSocketHost: 'ws://192.168.0.147:10040',
+    // is_test: true,
+    is_test: false,
+    platform: 'zcy_website',
+    version: '1.0.0',
+    name: '中采云官网',
+    appId: '1189822311793037312',
+    index: '/home/index',
+};

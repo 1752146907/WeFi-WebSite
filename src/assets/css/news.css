@@ -1,0 +1,264 @@
+.news {
+    background-color: #fcfcfc;
+}
+
+.media-top {
+    width: 100%;
+    height: 120px;
+    background: url("../../assets/image/news-title.png") no-repeat;
+}
+
+.news-warp {
+    display: flex;
+    width: 1200px;
+    margin: 24px auto;
+}
+
+.news-warp .news-content {
+    flex: 1;
+    padding: 30px;
+    margin-left: 16px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.news-content-header {
+    font-size: 30px;
+    color: #4e5856;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+
+.news-content-item {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-bottom: 1px dashed #e4e4e4;
+    cursor: pointer;
+}
+
+.news-content-item-title {
+    width: 740px;
+    font-size: 16px;
+    color: #4e5856;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow:ellipsis;
+}
+
+.news-content-item-time {
+    flex: 1;
+    text-align: right;
+    font-size: 16px;
+    color: #4e5856;
+}
+
+.news-detail-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #e4e4e4;
+    margin-bottom: 30px;
+}
+
+.news-detail-title {
+    flex: 1;
+}
+
+.news-detail-title-text {
+    width: 830px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4e5856;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+}
+
+.news-detail-title-desc {
+    font-size: 14px;
+    color: #666666;
+    margin-top: 6px;
+}
+
+.live-content-item {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.live-item-img-warp {
+    position: relative;
+    width: 180px;
+    height: 120px;
+}
+
+.live-item-img {
+    width: 180px;
+    height: 120px;
+}
+
+.live-item-info {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    margin-left: 30px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+
+.live-item-info-left {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+
+.live-item-info-title {
+    width: 590px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4e5856;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+}
+
+.live-item-info-time {
+    width: 100px;
+    font-size: 14px;
+    color: #999999;
+    text-align: right;
+}
+
+.live-item-info-desc {
+    width: 590px;
+    font-size: 14px;
+    margin-top: 16px;
+    color: #999999;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+}
+
+
+.live-item-img-info {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.live-play span{
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 4px;
+}
+
+.live-play {
+    display: flex;
+    align-items: center;
+}
+
+.live-play-img {
+    width: 14px;
+    height: 11px;
+}
+
+.root_1fog6rx {
+    width: 896px !important;
+    height: 540px !important;
+    cursor: pointer;
+}
+
+.live-desc {
+    font-size: 16px;
+    color: #666666;
+    margin-top: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-line-clamp: 20;
+    -webkit-box-orient: vertical;
+}
+
+.live-play-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.live-play-item {
+    width: 210px;
+    margin-right: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.live-play-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.live-play-item-img-warp {
+    position: relative;
+    width: 210px;
+    height: 130px;
+}
+
+.live-play-item-img {
+    width: 210px;
+    height: 130px;
+}
+
+.live-play-item-content {
+    height: 60px;
+    line-height: 18px;
+    padding: 12px;
+    color: #666666;
+}
+
+.live-play-item-content-active {
+    height: 60px;
+    line-height: 18px;
+    padding: 12px;
+    color: #10ae78;
+    background-color: #e7f7f1;
+}
+
+.live-play-item-title {
+    width: 100%;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+}
+
+.video-warp {
+    width: 896px;
+    height: 540px;
+}
+
+
+.live-content-html iframe {
+    width: 100%;
+    height: 540px;
+}

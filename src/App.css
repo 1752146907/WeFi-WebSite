@@ -1,0 +1,125 @@
+
+
+/*滚动条*/
+/*
+::-webkit-scrollbar{
+  width: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgba(0, 0, 0, 0.23);
+}
+*/
+
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background:rgba(0,0,0,1) !important;
+}
+
+iframe {
+  width: 100%;
+  height: calc(100vh - 65px);
+  border: none !important;
+}
+
+
+.hander{
+  height: 60px;
+  display: flex;
+  padding: 0px 40px;
+}
+.hander .hander-logo{
+  height: 30px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.hander .hander-right{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.hander .hander-right-item{
+  color: #ffffff;
+  padding: 20px 12px;
+  font-size:14px;
+  cursor: pointer;
+  position: relative;
+}
+.hander-right-item-arr{
+  width: 20px;
+  margin-left: 6px;
+}
+.hander-right-item .children{
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  padding: 20px 12px 10px 12px;
+  background: rgba(0,0,0,1);
+  display: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0px 2px 10px #000000;
+}
+.hander-right-language:hover .children{
+  display: block;
+}
+.hander-right-language:hover .hander-right-item-arr{
+  transform: rotate(180deg);
+  position: relative;
+  top: -2px;
+}
+
+.main{
+  text-align: center;
+  height: calc(100vh - 60px);
+  width: 100%;
+  background: url('./assets/image/bg.png') no-repeat 100%;
+  background-size: cover;
+}
+.main .main-img{
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  padding: 300px 0 47px 0;
+}
+.main .main-title{
+  font-size:30px;
+  font-weight:600;
+  color:rgba(255,255,255,1);
+  line-height:42px;
+  letter-spacing:20px;
+}
+.main .main-sub{
+  font-size:22px;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+  line-height:50px;
+  letter-spacing:14px;
+}
+
+@media only screen and (max-width: 500px) {
+  .main .main-img{
+    width: 150px;
+    padding: 160px 0 47px 0;
+  }
+  .hander{
+    padding: 0px 20px;
+  }
+  .hander .hander-right-item{
+    font-size: 12px;
+    padding: 20px 0px 20px 12px;
+  }
+  .main .main-title{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+  }
+  .main .main-sub{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 4px;
+  }
+}

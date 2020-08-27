@@ -1,0 +1,60 @@
+{
+  "name": "WIFI-Website",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "homepage": ".",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^3.26.11",
+    "bluebird": "^3.7.2",
+    "bootstrap": "^4.4.1",
+    "dva": "^2.4.1",
+    "qrcode.react": "^1.0.0",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.12.0",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.1",
+    "reconnecting-websocket": "^4.4.0",
+    "reqwest": "^2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "packager": "electron-packager . myElectron --platform=win32 --arch=x64 --icon=computer.ico --out=./myClient --asar --app-version=0.0.1 --overwrite --ignore=node_modules --electron-version 9.0.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^9.0.5"
+  },
+  "description": "WIFI门户网站",
+  "repository": {
+    "type": "git",
+    "url": "http://120.79.138.205:8081/zhongcaiyun/zcy-website"
+  },
+  "keywords": [],
+  "author": "Mr.Li(1752146907@qq.com)",
+  "license": "ISC"
+}
