@@ -18,7 +18,7 @@ class Index extends Component {
     }
 
     componentDidMount() {
-        document.title = "WIFI-关于我们";
+        document.title = "TEFI-关于我们";
     }
 
     componentWillUnmount() {
@@ -50,10 +50,9 @@ class Index extends Component {
     render() {
         return (
             <div>
-                <Header nav="1"></Header>
+                <Header nav="2"></Header>
 
-
-                <iframe src="http://wifidefi.com/WIFI-BusinessPaper.pdf"
+                <iframe src="http://tefi.life/TEFI-About.pdf"
                         scrolling="no"
                         title="iframe"
                         frameBorder="0"

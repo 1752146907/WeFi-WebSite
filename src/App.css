@@ -77,6 +77,7 @@ iframe {
   width: 100%;
   background: url('./assets/image/bg.png') no-repeat 100%;
   background-size: cover;
+  background-position: center;
 }
 .main .main-img{
   width: 250px;
@@ -85,17 +86,17 @@ iframe {
   padding: 300px 0 47px 0;
 }
 .main .main-title{
-  font-size:30px;
-  font-weight:600;
+  font-size:90px;
+  font-weight:900;
   color:rgba(255,255,255,1);
-  line-height:42px;
-  letter-spacing:20px;
+  line-height:108px;
+  padding: 350px 0px 26px 0px;
 }
 .main .main-sub{
   font-size:22px;
   font-weight:500;
   color:rgba(255,255,255,1);
-  line-height:50px;
+  line-height:30px;
   letter-spacing:14px;
 }
 

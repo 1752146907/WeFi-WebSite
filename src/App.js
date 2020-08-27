@@ -115,18 +115,13 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Header nav={this.headerNav}></Header>
+                <Header nav="1"></Header>
 
-                {/*<div className="main">*/}
-                {/*    <img src={require('./assets/image/logo02.png')} alt="" className="main-img" />*/}
-                {/*    <div className="main-title">WORLD INNER-TOKENIZED</div>*/}
-                {/*    <div className="main-sub">FINANICAL INSTITUTION</div>*/}
-                {/*</div>*/}
-                <iframe src="http://tefi.life/TEFI-About.pdf"
-                        scrolling="no"
-                        title="iframe"
-                        frameBorder="0"
-                ></iframe>
+                <div className="main">
+                    {/*<img src={require('./assets/image/logo02.png')} alt="" className="main-img" />*/}
+                    <div className="main-title">Borderless trust </div>
+                    <div className="main-sub">PROFESSION STRENGTH</div>
+                </div>
 
             </div>
         );

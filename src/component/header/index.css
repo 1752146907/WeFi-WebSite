@@ -68,7 +68,8 @@
 }
 
 .active-item {
-    height: 64px;
+    /*height: 64px;
     color: #10ae78;
-    border-bottom: 4px solid #10ae78;
+    border-bottom: 4px solid #10ae78;*/
+    color: #1577DB !important;
 }

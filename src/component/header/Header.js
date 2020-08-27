@@ -16,7 +16,8 @@ class Header extends Component {
     }
 
     componentDidMount() {
-        this.handleGetLanguage()
+        this.handleGetLanguage();
+        console.log(this.state.nav.nav)
     }
 
     componentWillUnmount() {
@@ -78,7 +79,16 @@ class Header extends Component {
                 {/*<span className={this.state.nav.nav === "about" ? "nav-item-text active-item" : "nav-item-text"}>关于我们</span>*/}
                 <img className="hander-logo" onClick={this.handleActiveHome.bind()} src={require('../../assets/image/logo.png')} alt="" />
                 <div className="hander-right">
-                    <div className="hander-right-item" onClick={this.handleActiveHome.bind()}>
+                    <div className={this.state.nav.nav === '1' ? "hander-right-item active-item" : "hander-right-item"} onClick={this.handleActiveHome.bind()}>
+                        {
+                            this.state.language === 'zh'
+                                ?
+                                '首页'
+                                :
+                                'Home'
+                        }
+                    </div>
+                    <div className={this.state.nav.nav === '2' ? "hander-right-item active-item" : "hander-right-item"} onClick={this.handleActiveAbout.bind()}>
                         {
                             this.state.language === 'zh'
                                 ?
@@ -87,7 +97,7 @@ class Header extends Component {
                                 'About'
                         }
                     </div>
-                    <div className="hander-right-item" onClick={this.handleActiveBookWhitePaper.bind()}>
+                    <div className={this.state.nav.nav === '3' ? "hander-right-item active-item" : "hander-right-item"} onClick={this.handleActiveBookWhitePaper.bind()}>
                         {
                             this.state.language === 'zh'
                                 ?
