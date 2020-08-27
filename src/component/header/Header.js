@@ -27,9 +27,9 @@ class Header extends Component {
         setTimeout(() => {
             // 判断是否有默认语言
             if(!storage.getLanguage() || storage.getLanguage() === '') {
-                storage.setLanguage('en');
+                storage.setLanguage('zh');
                 this.setState({
-                    language: 'en'
+                    language: 'zh'
                 });
             } else{
                 this.setState({
