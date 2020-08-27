@@ -25,7 +25,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        document.title = "WEFI-关于我们";
+        document.title = "TEFI-关于我们";
 
         // this.handleNewsLoad();
         // this.handleInvestmentLoad();

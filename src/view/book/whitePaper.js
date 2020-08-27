@@ -16,7 +16,7 @@ class Index extends Component {
     }
 
     componentDidMount() {
-        document.title = "WEFI-白皮书";
+        document.title = "TEFI-白皮书";
     }
 
     componentWillUnmount() {
