@@ -50,7 +50,7 @@ class Index extends Component {
             <div>
                 <Header nav="3"></Header>
 
-                <iframe src="http://tefi.life/TEFI-Whitepaper.pdf"
+                <iframe src="http://tefi.life/pdfjs/web/viewer.html?file=http://tefi.life/TEFI-Whitepaper.pdf"
                         scrolling="no"
                         title="iframe"
                         frameBorder="0"
