@@ -80,33 +80,36 @@ class Header extends Component {
                 <img className="hander-logo" onClick={this.handleActiveHome.bind()} src={require('../../assets/image/logo.png')} alt="" />
                 <div className="hander-right">
                     <div className={this.state.nav.nav === '1' ? "hander-right-item active-item" : "hander-right-item"} onClick={this.handleActiveHome.bind()}>
-                        {
+                      {/*  {
                             this.state.language === 'zh'
                                 ?
                                 '首页'
                                 :
                                 'Home'
-                        }
+                        }*/}
+                        Home
                     </div>
                     <div className={this.state.nav.nav === '2' ? "hander-right-item active-item" : "hander-right-item"} onClick={this.handleActiveAbout.bind()}>
-                        {
+                        {/*{
                             this.state.language === 'zh'
                                 ?
                                 '关于我们'
                                 :
                                 'About'
-                        }
+                        }*/}
+                        About
                     </div>
                     <div className={this.state.nav.nav === '3' ? "hander-right-item active-item" : "hander-right-item"} onClick={this.handleActiveBookWhitePaper.bind()}>
-                        {
+                        {/*{
                             this.state.language === 'zh'
                                 ?
                                 '白皮书'
                                 :
                                 'White Paper'
-                        }
+                        }*/}
+                        White Paper
                     </div>
-                    <div className="hander-right-item hander-right-language">
+                    {/*<div className="hander-right-item hander-right-language">
                         {
                             this.state.language === 'zh'
                             ?
@@ -124,7 +127,7 @@ class Header extends Component {
                                     '简体中文'
                             }
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
         )
