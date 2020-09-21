@@ -107,7 +107,7 @@ class Header extends Component {
                                 :
                                 'White Paper'
                         }*/}
-                        White Paper
+                        WhitePaper
                     </div>
                     {/*<div className="hander-right-item hander-right-language">
                         {
